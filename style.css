@@ -1,0 +1,25 @@
+:root{
+    --base: #ff2244;
+    --spacing:10px;
+    --blur:0px;
+}
+body{
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    box-shadow: 2px 2px 20px white;
+    border-radius: 25px;
+    margin-top: 1rem;
+    background: var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+}
+.js{
+    text-shadow: 2px 2px 2px white;
+    font-size: 2.5rem;
+    color: var(--base);
+}
