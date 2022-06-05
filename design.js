@@ -1,3 +1,4 @@
+window.onload = () => {
 const inputs = document.querySelectorAll('.controls input');
 const frame = document.getElementById("frame");
 function handleInput(){
@@ -15,3 +16,5 @@ function design()
 
 
 }
+
+};
